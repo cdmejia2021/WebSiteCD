@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 1 Tema 1</title>
+</head>
+<header class="primera">
+	<h1>Tema 1: Definición</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+							<h4>Capitulo 1: Definición</h4>
+						</a>
+							<p>
+								<p>
+									A la derivada se le conoce a su vez como la pendiente de la recta tangente. Este es el límite cuando h
+									tiende a 0 y es tan popular y famoso que tiene su propio nombre y es el de derivada. Igualmente es
+									empleado para hallar velocidades y en general, tasas de cambio. Si bien, no ocuparemos el tema de las
+									aplicaciones en esta ocasión, es de suma importancia tener esto en cuenta.
+								</p>
+								<p>
+									Su fórmula por definición, es la siguiente:
+								</p>
+								<p>
+									lim┬(h→0)⁡〖(f(x+h)-f(x))/h〗
+								</p>
+								<p>
+									NOTA: En algunos casos el proceso de derivación de una función se puede llamar diferenciación.
+								</p>
+								<p>
+									Tampoco se debe confundir la función derivada en un punto la cual es un valor especifico a una función
+									derivada la cual, como su nombre lo dice es una función. 
+								</p>
+								<p>
+									Ejemplo 2:
+								</p>
+								<p>
+									Hallar la derivada de f^' (x)=x/(x-1)
+								</p>
+									<img src="Imagenes/ejemplo1.jpg" alt="ejemplodefinicion" height="500" width="520">
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+						<a name="Actividades">	
+							<h4>Actividades</h4>
+						</a>	
+						<p>
+							<p>
+								<b>1.</b> Resuelva el siguiente ejercicio propuesto utilizando la derivación por definición
+							</p>
+							<p>
+								x^2
+							</p>
+
+							<p>
+								<b>2.</b> Escoja las opciones correctas para los campos que se deben rellenar.
+							</p>
+							<p>
+								La ______________ se le conoce también como la ____________ de la _________ tangente que se puede 
+								establecer en un ___________ determinado.
+							</p>
+							<ol type="a">
+								<li>derivación, recta, punto, pendiente.</li>
+								<li>derivada, pendiente, recta, punto.</li>
+								<li>deribada, pendiente, recta, punto.</li>
+								<li>derivación, pendiente, punto, recta.</li> 
+							</ol>
+
+							<p>
+								<b>3.</b> Responda de forma abierta al siguiente enunciado
+							</p>
+							<p>
+								De acuerdo a la opción escogida anteriormente justifique su elección
+							</p>
+							
+							<p>
+								<b>4.</b> Responda falso o verdadero de acuerdo al siguiente enunciado
+							</p>
+							<p>
+								La derivación por definición depende del límite:
+							</p>
+							<p>
+								lim┬(h→∞)⁡〖(f(x+h)-f(x))/h〗
+							</p>
+
+							<p>
+								<b>5.</b> Responda de forma abierta al siguiente enunciado
+							</p>
+							<p>
+								De acuerdo a la opción escogida anteriormente justifique su elección
+							</p>
+					</article>
+					<article class="tercera" id="qu6">				
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=pMYdSjgzrys&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+				https://www.youtube.com/watch?v=pMYdSjgzrys&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas Profe Alex 
+			</p>		
+		</aside>		
+		</section>
+
+		<footer>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				<p>
+					&copy; Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+				</p>
+		</footer>
+</body>
+</html>	

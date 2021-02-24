@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 3 Tema 1</title>
+</head>
+<header class="primera">
+	<h1>Tema 1: Definición</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+			<a href="#OVAS">OVAS</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">					
+							<h4>Definición</h4>
+						</a>
+							<p>
+								<p>
+									Alguna vez, me explicaron que para aprender a derivar con regla de la cadena es necesario entender que 
+									función abraza a cuál función, aunque no son términos muy técnicos para mi caso especial, fue muy útil
+									que me lo explicaran de esta forma para así yo entender cómo se supone que funciona la regla de la 
+									cadena. Ahora bien, en el caso de las clases si se me explicaba que era similar a utilizar g 
+									complemento de x y x complemento de g. 
+								</p>
+								<p>
+									De “afuera” hacia “adentro”
+								</p>
+								<p>
+									Otra forma de verlo, que va de la mano con la que abraza la función es ver cuál es la función que se
+									encuentra más afuera por verlo de alguna forma es por ello que con estas dos explicaciones me quedo aún
+									más claro y solo me restaba practicar para consolidar los términos. Siendo más específicos en realidad 
+									y considerando lo siguiente f(g(x)) aquí sabemos que f(x) es una la función de “afuera” y que g(x) es 
+									la función de “adentro” o interna, lo cual, sería lo mismo que decir que la derivada de f(x) ósea de la
+									de “afuera” evaluada en la “interna” g(x) pero sin derivar multiplicada por ahora sí, la derivada de 
+									g(x). 
+								</p>
+								<p>
+									Porque, recuérdalo muy bien la practica hace al maestro y en este caso puntual, es cierto y muy 
+									importante saberlo. Ahora bien, en la regla de la cadena te puedes apoyar en la regla de la potencia 
+									que es muy similar.
+								</p>
+								<h5>Explicación técnica</h5>
+								<p>
+									Se establece que si una función es derivable x en f(x) y otra x en g(x). Luego, la función f 
+									complemento g es igual a f(g(x)) su derivada será entonces:
+								</p>
+								<p>
+									f’(g(x))*g’(x)
+								</p>
+								<p>
+									En definitiva, la derivada de la función f evaluada o calculada en g(x) por la derivada de g(x). A lo 
+									que a g’(x) se le conoce como derivada interna y a f’(x) como derivada externa. Otra forma de nombrarlo
+									puede ser la externa derivada o f’(x) evaluada o calculada en la interna o g(x) por o efectuando el 
+									producto con la derivada de la interna o g’(x) 
+								</p>
+								<p>	
+									Ejemplo:
+								</p>
+								<p>
+									Aquí se utilizarán leyes de los exponentes
+								</p>
+								<p>
+									F(x)=√((x^5-3))
+								</p>
+								<p>
+									o lo que es lo mismo
+								</p>
+								<p>
+									f(x)=〖(x^5-3)〗^(1/2)
+								</p>
+								<p>
+									Inicialmente, debemos identificar cual es la función externa (f(x) si lo queremos ver así, adicional a 
+									esto también dicho en términos menos técnicos la función que abraza al resto de funciones o la que 
+									rodea al resto) y cuál es la función interna (g(x) si lo queremos ver así, la que está siendo abrazada 
+									en este caso por la función que la está rodeando si lo puedes ver así o también la que está dentro de 
+									la o la mayor función)
+								</p>
+								<p>
+									Como podremos analizar la función externa (f(x)) corresponde a √x y la interna (g(x)) a 〖(x〗^5-3)
+								</p>	
+								<p>
+									Teniendo en cuenta esto podremos iniciar a derivar:
+								</p>
+								<p>
+									En un primer momento derivaremos la función externa en este caso, f(x) = √x Esto es igual a:
+								</p>
+								<p>
+									f’(x)=1/2 〖(x)〗^(-1/2)
+								</p>
+								<p>
+									Ahora, como bien sabemos la función interna es 〖(x〗^5-3) esta misma según la regla de la cadena esta
+									misma, debe estar siendo evaluada por la derivada de la externa. En este caso, f(x). A lo que debería 
+									corresponder a lo siguiente:
+								</p>
+								<p>							
+									1/2 〖(x^5-3)〗^(-1/2)
+								</p>
+								<p>
+									Ahora bien, debemos derivar la función interna g(x) = x^5-3 esto corresponderá a lo siguiente:
+								</p>	
+								<p>
+									g’(x)=〖5x〗^4
+								</p>
+								<p>
+									Por último, lo que sigue es efectuar un producto entre 
+								</p>
+								<p>								
+									1/2 〖(x^5-3)〗^(-1/2)
+								</p>	
+								<p>
+									y 5x ya que, como se menciona anteriormente se debe efectuar producto entre f’(g(x)) y g’(x). Quedando 
+									el resultado de la siguiente manera:
+								</p>
+								<p>
+									R/
+								</p>
+								<p>
+									F^' (x)=1/2 〖(x^5-3)〗^(-1/2)∙(〖5x〗^4)
+								</p>
+								<p>
+									NOTA: Es aconsejable realizar simplificación de los resultados obtenidos.
+								</p>									
+							</p>	
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+						<a name="Actividades">
+							<h4>Actividades</h4>
+						</a>		
+							<p>
+								<p>
+									<b>1.</b> Responda el siguiente enunciado
+								</p>
+								<p>
+									La clase de funciones que se manipulan en la regla de la cadena son las ______________.
+								</p>
+
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+
+								<p>
+									<b>3.</b> Resuelva el siguiente ejercicio propuesto
+								</p>
+								<p>
+									Nota: Para realizar este ejercicio se deben conocer los temas anteriores
+								</p>
+								<ul>
+									<li>〖(x^(3/2) √x-1/x^2 )〗^5 </li>
+								</ul>
+
+								<p>
+									<b>4.</b> Responda falso o verdadero de acuerdo al siguiente enunciado:
+								</p>
+								<p>
+									Para una correcta realización de la regla de la cadena se debe derivar la interna y evaluarla en la 
+									externa.
+								</p>
+
+								<p>
+									<b>5.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">		
+					<a name="OVAS">	
+						<h4>OVAS</h4>
+						<p>
+							En esta sección, recomendamos las actividades que se ofrecen en Educaplay donde podrás encontrar desde
+							crucigramas, sopas de letras, video - quices, entre otros. Para poder prácticar los diferentes temas 
+							explicados anterioremente. Recuerda buscar acerca de derivadas exponenciales.
+						</p>
+					</a>
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=ASbk8LLfZj0&ab_channel=MateFacil" target="blank">
+					https://www.youtube.com/watch?v=ASbk8LLfZj0&ab_channel=MateFacil
+				</a>
+				del canal de MateFacil
+			</p>		
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

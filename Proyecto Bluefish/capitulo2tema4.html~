@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 2 Tema 4</title>
+</head>
+<header class="primera">
+	<h1>Tema 4: Derivada de una potencia</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+						<h4>Derivada de una potencia</h4>
+						</a>
+							<p>
+								<p>
+									Baja el exponente
+								</p>
+								<p>
+									Ejemplo:
+								</p>
+								<p>
+									Derive 〖f(x)〗^n
+								</p>
+								<p>	
+									Donde n será una constante que pertenece a los reales
+								</p>
+								<p>
+									Su derivada será n〖f'(x)〗^(n-1)
+								</p>
+								<p>
+									Ahora, supongamos que f(x) = x^80 
+								</p>
+								<p>
+									Su derivada por tanto será  
+								</p>
+								<p>
+									f^' (x)= 〖80x〗^79
+								</p>
+								<p>
+									Ya que, 80 es el exponente y lo que se realiza, es lo siguiente:
+								</p>
+								<p>
+									f^' (x)=80x^(80-1)  = 80x^79
+								</p>
+							</p>		
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+						<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>								
+									<b>1.</b> Escoge la opción correcta de acuerdo a las opciones dadas relacionadas con el enunciado:
+								</p>
+								<p>
+									Son pasos para aplicar la regla de la potencia en la derivación:
+								</p>
+								<ol>
+									<li>Ninguna es correcta</li>
+									<li>Se sube el exponente</li>
+									<li>Se suma el exponente</li>
+									<li>B y C son correctas</li>
+								</ol>
+
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida anteriormente justifique su elección
+								</p>
+
+								<p>
+									<b>3.</b> Resuelve el siguiente ejercicio propuesto
+								</p>
+								<ul>
+									<li>√(3&x^7 )</li>
+								</ul>
+
+								<p>
+									<b>4.</b>Responda falso o verdadero de acuerdo al enunciado
+								</p>
+								<p>
+									Para realizar la derivación utilizando las potencias se debe hacer uso de “bajar” la potencia y 
+									multiplicarla por la variable
+								</p>
+
+								<p>
+									<b>5.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en el enunciado anterior justifique su elección
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=-PjdQi5Foio&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+					https://www.youtube.com/watch?v=-PjdQi5Foio&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas Profe Alex
+			</p>			
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

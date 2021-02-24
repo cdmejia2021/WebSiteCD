@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 4 Anexo 1</title>
+</head>
+<header class="primera">
+	<h1>Anexo 1: Funciones trigonométricas inversas</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">				
+							<h4>Anexo 1: Funciones trigonométricas inversas</h4>
+						</a>	
+							<p>
+								<p>
+									Para hallar cualquier derivada de una función trigonométrica inversa debemos emplear la derivación 
+									implícita es por eso, que se encuentra aquí como sección añadida del tema de derivación implícita. 
+									Igualmente, debemos recordar cuales son las funciones trigonométricas inversas. Estas son las 
+									siguientes:
+								</p>
+								<ol>
+									<li>sin^(-1)⁡x</li>
+									<li>cos^(-1)⁡x</li>
+									<li>tan^(-1)⁡x</li>
+									<li>csc^(-1)⁡x</li>
+									<li>sec^(-1)⁡x</li>
+									<li>cot^(-1)⁡x</li>
+								</ol>
+								<p>
+									Ejemplo 2:
+								</p>
+								<p>
+									Hallar la derivada de la función f(x)=sec^(-1)⁡(x+2)
+								</p>
+								<p>
+									Nota:
+								</p>
+								<p>
+									En este caso, iremos un poco más rápido, sin embargo, como posee regla de la cadena nos detendremos un
+									poco para ilustrar mejor esta sección relacionada al capítulo 3.
+								</p>
+								<p>
+									Ahora como bien sabemos por la tabla presentada anteriormente, la derivada de sec^(-1)⁡x corresponde a 
+									1/(x√(x^2-1))
+								</p>
+								<p>
+									Pero en este caso puntualmente, debemos utilizar a su vez la regla de la cadena. Teniendo que:
+								</p>	
+								<ol>								
+									<li>Función externa: sec^(-1)⁡x</li>
+									<li>Función interna: (x+2)</li>
+								</ol>
+								<p>
+									De esta forma sabemos que:
+								</p>
+								<p>
+									1/((x+2) √((x+2)^2-1))(1)
+								</p>
+								<p>
+									Sabiendo que la derivada de la función interna es 1
+								</p>
+								<p>
+									Ahora deberemos simplifica el binomio cuadrado para obtener el resultado final
+								</p>
+								<p>
+									1/((x+2) √(x^2+2x+4-1))
+								</p>
+								<p>
+									1/((x+2) √(x^2+4x+3))
+								</p>
+								<p>
+									De esta forma, unificando los resultados obtuvimos lo siguiente:
+								</p>
+								<p>
+									f^' (x)=1/((x+2) √(x^2+4x+3))
+								</p>
+								<p>
+									Nota: Estas mismas funciones trigonométricas también reciben el nombre de arco seno, arco coseno, arco
+									tangente, arco secante, arco cosecante y arco cotangente
+								</p>
+							</p>
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+						<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>
+									<b>1.</b> Escoge la opción correcta de acuerdo al siguiente enunciado:
+								</p>
+								<p>
+									Son derivadas de la funciones 〖f(x)= tan〗^(-1)⁡(x^2 ),g(x)=  sec^(-1)⁡〖(x^3 )  y h(x)=cot^(-1)⁡〖(x+1)〗
+								</p> 〗
+								<ol type="a">
+									<li>2x/(x^4+1);  2x/(x√(x-1));1/(x^2+2x+2)</li>
+									<li>2x/(x^4+1);  2x/(x^2 √(x-1));-1/(x^2+2x+2)</li>
+									<li>2x/(x^4+1);  2x/(x^2 √(x^2-1));-1/(x^2+2x+2)</li>
+									<li>2x/(x^4+1);  2x/(x^2 √(x^2-1));  1/(x^2+2x+2)</li>
+								</ol>
+
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior, justifíquela.
+								</p>
+	
+								<p>
+									<b>3.</b> Responda falso o verdadero de acuerdo al siguiente enunciado:
+								</p>
+								<p>
+									Para la demostración de las derivadas trigonométricas inversas se hace uso de la derivación implícita
+								</p>
+
+								<p>
+									<b>4.</b> Responda de forma abierta al siguiente enunciado
+								</p>	
+								<p>								
+									De acuerdo a la opción escogida en la pregunta anterior, justifíquela.
+								</p>
+	
+								<p>
+									<b>5.</b> Resuelva el siguiente ejercicio propuesto y dejarlo a su mínima expresión
+								</p>
+								<p>
+									tan^(-1)⁡〖((1+x)/(1-x))〗  R:1/(x^2+1)
+								</p>
+								<h4>OVAS</h4>
+									<ol>
+										<a href="https://es.educaplay.com/recursos-educativos/5406189-derivacion_trig_inversa.html">
+											<li>Trigonométrica Inversa</li>
+										</a>
+										<a href="https://es.educaplay.com/recursos-educativos/3619325-derivadas_trigonometricas.html">
+											<li>Trigonométrica Básica e Inversa</li>
+										</a>
+									</ol>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=aNASRj9zLAA&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+					https://www.youtube.com/watch?v=aNASRj9zLAA&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas Profe Alex
+			</p>		
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

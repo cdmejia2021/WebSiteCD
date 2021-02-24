@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 4 Tema 1</title>
+	<script language="JavaScript" src="js/micodigo.js">
+	</script>
+</head>
+<header class="primera">
+	<audio controls preload="preload" autoplay="autoplay"> 
+		<source src="Audios/cumbia.mp3" type="audio/mp3">
+			Your browser does not support the audio element	
+	</audio>
+		<h1>Tema 1: Definición</h1>
+			<img src="Imagenes/calculadora.jpg" alt="foto de calculadora" height="256" width="200">
+			<img src="Imagenes/foto grupal.jpg" alt="foto grupal" height="256" width="320">
+			<img src="Imagenes/marcianito.gif" alt="marcianito bailando" height="256" width="256">
+				<video height="256" width="480" controls preload="preload">
+					<source src="Videos/video_bailexd.mp4" type="video/mp4">
+						Your browser does not support the video tag		
+				</video>
+</header>
+<input type="button" onclick="confirmation2()" value="prompt"/>
+<input type="button" onclick="alert('ACA VA EL MENSAJE!!!')" value="alert"/>
+<input type="button" onclick="confirmation()" value="confirm"/>
+<body background= "Imagenes/fondo.png">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Perfil" id="id4">Perfil</a>
+			<a href="#Actividades">Actividades</a>
+			<a href="#Canales">Canales</a>
+			<a href="#OVAS">OVAS</a>
+			<a href="#Libros" target="blank">Libros</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<h4>Capitulo 1: Definición</h4>
+							<p>
+								<p>
+									A la derivada se le conoce a su vez como la pendiente de la recta tangente. Este es el límite cuando h
+									tiende a 0 y es tan popular y famoso que tiene su propio nombre y es el de derivada. Igualmente es
+									empleado para hallar velocidades y en general, tasas de cambio. Si bien, no ocuparemos el tema de las
+									aplicaciones en esta ocasión, es de suma importancia tener esto en cuenta.
+								</p>
+								<p>
+									Su fórmula por definición, es la siguiente:
+								</p>
+								<p>
+									lim┬(h→0)⁡〖(f(x+h)-f(x))/h〗
+								</p>
+								<p>
+									NOTA: En algunos casos el proceso de derivación de una función se puede llamar diferenciación.
+								</p>
+								<p>
+									Tampoco se debe confundir la función derivada en un punto la cual es un valor especifico a una función
+									derivada la cual, como su nombre lo dice es una función. 
+								</p>
+								<p>
+									Ejemplo 2:
+								</p>
+								<p>
+									Hallar la derivada de f^' (x)=x/(x-1)
+								</p>
+									<img src="Imagenes/ejemplo2.jpg" alt="ejemplodefinicion">		
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="_blank">
+					<img src="Imagenes/listas.jpg" alt="foto del video ejemplo 1" height="360" width="360">
+				</a>	
+			<p>
+				Tomado de <a href="https://www.youtube.com/watch?v=uK4-s0ojHFg&list=PLeySRPnY35dG2UQ35tPsaVMYkQhc8Vp__">1</a>
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+						<h4>Derivada por definición de un punto</h4>
+							<p>
+								<p>
+									Para hallar la derivada de la función f(x) en un determinado punto deberemos verificar si está definida
+									entonces, la opción que nos queda es observar si f(x) es derivable en el punto dado a este punto 
+									algunos textos, lo pueden llamar a como se puede tener en cuenta. Igualmente, sabemos que a final de 
+									cuentas que geométricamente la derivada no es más que la pendiente de la recta tangente.	 
+								</p>
+								<p>								
+									Ejemplo 1:
+								</p>	
+								<p>							
+									Hallar la derivada o pendiente de la recta tangente de la función f(x)=〖5x〗^2+3x-1 utilizando x=2.
+								</p>		
+								<p>
+									Nota: Recuerde usar la definición de la derivada o pendiente de la recta tangente
+								</p> 
+								<p>
+									De esta forma obtendremos lo siguiente:
+								</p>
+									<img src="Imagenes/ejemplo1a.jpg" alt="ejemplopuntoa" width="620">
+ 								<p>
+									Donde podemos notar que donde originalmente, está el valor de x ha cambiado por el valor que se desea 
+									utilizar en x en este caso, 2.
+									Ahora, aplicaremos a la función la definición ya establecida de un lado y del otro, su evaluación como 
+									podemos observar.
+								</p>								
+ 									<img src="Imagenes/ejemplo1b.jpg" alt="ejemplopuntob" width="620">
+								<p>								
+									De esta forma, haremos todas las operaciones pertinentes a dicha definición obteniendo luego, lo 
+									siguiente:
+								</p>	
+ 									<img src="Imagenes/ejemplo1c.jpg" alt="ejemplopuntoc">
+								<p>							
+									Luego, simplificaremos al máximo todos los términos tal que nos quede, lo que visualizamos a 
+									continuación:
+								</p>
+									<img src="Imagenes/ejemplo1d.jpg" alt="ejemplopuntod">
+								<p>									 
+									Después, factorizaremos la h del numerador haciendo que se anule con la del denominador.
+								</p>
+								 	<img src="Imagenes/ejemplo1e.jpg" alt="ejemplopuntoe">
+								<p>
+									Siendo 23, el resultado obtenido ya que h→0
+								</p> 
+ 									<img src="Imagenes/ejemplo1f.jpg" alt="ejemplopuntof">
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				<video height="390" width="480" controls preload="preload">
+					<source src="Videos/derivada.mp4" type="video/mp4">
+					Your browser does not support the video tag		
+				</video>
+			</p>		
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			Referencias de imagenes
+			<a href="https://www.pexels.com/es-es/">https://www.pexels.com/es-es/</a>
+			<p>Referencias</p>
+			Pre cálculo (Matemáticas para el cálculo) James Stewart 6ª edición
+			http://ftp1.unimeta.edu.co/calculus/multivariable/books/precalculo_-_matematicas_para_el_calculo-1.pdf
+			Cálculo de una variable Thomas 11ª edición
+			http://uasdsanjuan.org/wp-content/uploads/2014/10/CalculoUnaVariableThomaspdf.pdf
+			Cálculo de una variable de James Stewart
+			https://www.academia.edu/28215573/Ca_lculo_de_una_Variable_7ma_Edicio_n_de_James_Stewart
+			<p>
+			<a href="https://www.universoformulas.com/matematicas/analisis/regla-cadena/" target="blank">1</a>
+			</p>
+			<p>
+				&copy; Copyright 2020. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 3 Subtema 3</title>
+</head>
+<header class="primera">
+	<h1>Subtema 3: Funciones exponenciales</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+			<a href="#OVAS">OVAS</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+							<h4>Funciones exponenciales</h4>
+						</a>
+							<p>
+								<p>
+									Estas contienen una cierta estructura, que es utilizada para su derivación. Además es de recordar que 
+									siempre la función e^x su derivada, es ella misma. Así pues, a continuación, se dará una idea de cómo 
+									funcionan la derivación de las funciones exponenciales. Basándonos en la regla de la cadena. Siguiendo
+									este ideal, su forma de derivar sería tal que así
+								</p>
+								<p>
+									f(x)= e^(g(x)), luego:
+								</p>
+								<p>
+									f^' (x)=e^(g(x))*g'(x)
+								</p>
+								<p>
+									Ahora bien, para el caso de:
+								</p>
+								<p>
+									h(x)=a^(g(x))
+								</p>
+								<p>
+									Se debe derivar de la siguiente forma:
+								</p>
+								<p>
+									h^' (x)=a^(g(x))*g^' (x)*ln⁡(a)
+								</p>
+								<p>
+									Para la explicación, de porque sale de esta forma la derivada de h(x) se comenzará a dar una 
+									introducción de la regla de la cadena ya que esta, se basa en que la función y se encuentra implícita 
+									algo, que se tomará muy en cuenta, en el siguiente tema.
+								</p>
+								<p>
+									Por ahora, se demostrará como llegar a h^' (x)
+								</p>
+								<p>							
+									Para llegar a ello, es de gran importancia tener en cuenta lo siguiente:
+								</p>
+								<p>	
+									y=a^x
+								</p>
+								<p>
+									Donde podremos notar ya no se encuentra como tal f(x). Así pues, continuaremos:
+								</p>
+								<p>
+									Ahora, deberemos despejar a y. Quedando de esta forma:
+								</p>
+								<p>
+									log_a⁡y=x
+								</p>
+								<p>
+									Ahora, derivaremos en ambos lados la función respecto a x
+								</p>
+								<p>
+									Quedando, entonces:
+								</p>
+								<p>
+									1/(y ln⁡a )=dx/dy
+								</p>
+								<p>
+									Ahora deberemos, despejar dy obteniendo lo siguiente. Recuerda muy bien que lo que está sumando pasa a
+									restar y lo que se está multiplicando a dividir y viceversa para realizar muy bien el despeje. Sin 
+									embargo, aquí lo veremos al detalle, por lo menos en cuanto a las formulas realizadas:
+								</p>
+								<p>
+									En el paso 1, observaremos como dx pasa en esta ocasión a dividir:
+								</p>
+								<p>
+									1/(dx*ylna)=1/dy
+								</p>
+								<p>
+									Ahora bien, luego de esto se invertirán a lado y lado las expresiones para obtener el resultado que 
+									estamos buscando:
+								</p>
+								<p>
+									dx*ylna=dy
+								</p>
+								<p>
+									Ahora, si procederemos a regresar a dx a su expresión original. Para que continúe, como una derivada
+								</p>
+								<p>
+									ylna=dy/dx
+								</p>
+								<p>
+									Y por último, como recordaremos y era equivalente a una expresión en esta caso, esta era a^x. Esto lo 
+									realizamos con el fin de reemplazar:}
+								</p>
+								<p>
+									lna*a^x=dy/dx
+								</p>
+								<p>
+									Haciendo que finalmente, la derivada de y o y' sea igual a 
+								</p>
+								<p>
+									lna*a^x
+								</p>
+								<p>
+									Ejemplo:
+								</p>
+								<p>
+									Calcule la derivada de y=5(2^x )+3e^3x
+								</p>
+								<p>
+									De esta forma, ya sabremos que nos encontramos en una suma de derivadas que se calcula cada derivada 
+									por aparte, además de también poder hacer uso de la propiedad de múltiplos constantes la cual, nos 
+									vendrá muy bien.
+								</p>
+								<p>
+									De esta forma, podremos dividir la derivada en dos expresiones obteniendo lo siguiente:
+								</p>
+								<p>
+									y_1=5(2^x )
+								</p>
+								<p>
+									y_2=3e^3x
+								</p>
+								<p>
+									Ahora derivaremos y_1 y y_2 respectivamente:
+								</p>
+								<p>
+									y_1^'=5(2e^2x ln2)
+								</p>
+								<p>
+									Y es así, porque recordemos que existe la propiedad de que y=a^x, su derivada es y^'= a^x lna
+								</p>
+								<p>
+									Ahora, para y_2, su derivada será la siguiente:
+								</p>
+								<p>
+									y_2^'= 〖3(3e〗^3x)
+								</p>
+								<p>
+									Y simplificando, tendremos lo siguiente:
+								</p>
+								<p>
+									y_2^'= 〖9e〗^3x
+								</p>
+								<p>
+									De esta forma, ahora se comenzarán a sumar las derivadas para darnos cuenta de a cuanto equivaldrá y^' 
+									sabiendo que y^'= y_1^'+y_2'. De esta forma obtendremos:
+								</p>
+								<p>
+									y^'=10
+								</p>
+							</p>
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+						<a name="Actividades">
+							<h4>Actividades</h4>
+						</a>
+							<p>
+								<p>
+									<b>1.</b> Responda falso o verdadero de acuerdo al siguiente enunciado
+								</p>
+								<p>
+									La derivada de la función f(x)=8^x-e^2x es equivalente a 3 ln⁡(2)*8x-e^2x
+								</p>
+
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+								
+								<p>
+									<b>3.</b> Escoja la opción correcta de acuerdo al siguiente enunciado:
+								</p>
+								<p>
+									La derivada de la función f(x)= a^x corresponde a:
+								</p>
+								<p>
+									Nota: El resultado debe estar simplificado
+								</p>
+								<ol type="a">
+									<li>8^x (2 ln⁡(3))</li>
+									<li>8^x (ln⁡(8))</li>
+									<li>8^x (3 ln⁡(1))</li>
+									<li>8^x (3 ln⁡(2))</li>
+								</ol>
+
+								<p>
+									<b>4.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+    								De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+    							</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">	
+					<a name="OVAS">		
+						<h4>OVAS</h4>
+						<p>
+							En esta sección, recomendamos las actividades que se ofrecen en Educaplay donde podrás encontrar desde
+							crucigramas, sopas de letras, video - quices, entre otros. Para poder prácticar los diferentes temas 
+							explicados anterioremente. Recuerda buscar acerca de derivadas exponenciales.
+						</p>
+					</a>
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=5qs-GIIJUy0&ab_channel=julioprofe" target="blank">
+					https://www.youtube.com/watch?v=5qs-GIIJUy0&ab_channel=julioprofe
+				</a>
+				del canal de julioprofe
+				<br><br>
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=Nk1J8MauWIc&ab_channel=JUANKMATH" target="blank">
+					https://www.youtube.com/watch?v=Nk1J8MauWIc&ab_channel=JUANKMATH
+				</a>
+				del canal de JUANKMATH
+			</p>
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

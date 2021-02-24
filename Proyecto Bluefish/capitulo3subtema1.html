@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 3 Subtema 1</title>
+</head>
+<header class="primera">
+	<h1>Subtema 1: Derivadas trigonométricas</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+			<a href="#OVAS">OVAS</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+						<h4>Derivadas trigonométricas</h4>
+						</a>
+							<p>
+								<p>
+									Como podemos notar estas son las derivadas de funciones trigonométricas correspondientes, la razón por
+									la que se encuentran aquí es porque algunas se pueden hallar haciendo uso de la derivación por 
+									definición y en general, se pueden usar como una demostración de la regla de la cadena. Además, son muy
+									útiles para practicar regla de la cadena.
+								</p>
+								<p>
+									Así, por ejemplo tenemos que y=senx y por lo tanto, y^'=cosx.
+								</p>
+								<p>
+									Esto puede hacer uso de la regla de la cadena de la siguiente forma:
+								</p>
+								<p>
+									y^'=cos⁡(f(x))*f'(x)
+								</p>
+								<p>
+									O lo mismo puede suceder con la función y=tanx y y^'=〖sec〗^2 x
+								</p>
+								<p>
+									Donde se puede emplear la regla de la cadena de la siguiente manera:
+								</p>
+								<p>
+									y^'=〖sec〗^2 (f(x))*f'(x)
+								</p>
+								<p>
+									Donde f(x) podría ser cualquier función como Ln(x) o x^5
+								</p>
+								<p>
+									Ejemplo:
+								</p>
+								<p>
+									Halle la derivada de y=√(tan⁡(x^2-2x))
+								</p>
+								<p>
+									En este caso, podremos ver que existen tres funciones para realizarles la regla de la cadena una es 
+									f(x)=√x, la otra es g(x)=tanx y la última es, m(x)=x^2-2x.
+								</p>
+								<p>
+									En su orden la derivada que se encuentra más afuera o la más externa por decirlo así es:
+								</p>
+								<p>
+									f(x)=√x
+								</p>
+								<p>
+									La que seguirá a ella es:
+								</p>
+								<p>
+									g(x)=tanx
+								</p>
+								<p>
+									Y por último, la más pequeña o la interna es el argumento de la función g(x) el cual es:
+								</p>
+								<p>
+									m(x)=x^2-2x
+								</p>
+								<p>
+									Ahora bien, se deberán realizar los siguientes pasos:
+								</p>
+								<p>
+									En un primer momento, derivar f(x) y evaluarla en g(x) de la siguiente forma:
+								</p>
+								<p>
+									1/(2√(tan⁡(x^2-2x))) (1)
+								</p>
+								<p>
+									Para luego, multiplicar este resultado por g'(x). Siendo esta derivada así:
+								</p>
+								<p>
+									g^' (x)=〖sec〗^2 (x)
+								</p>
+								<p>
+									Todo estaría correcto, pero no olvidemos el orden de la regla de la cadena. Entonces ahora lo que 
+									debemos hacer es tomar g'(x) y evaluarla en m(x). Dándonos como resultado lo siguiente:
+								</p>
+								<p>
+									〖sec〗^2 (x^2-2x) (2)
+								</p>
+								<p>
+									Ahora bien lo único que nos restaría, sería derivar la función m(x). Lo que es igual a:
+								</p>
+								<p>
+									m^' (x)=2x-2 (3)
+								</p>
+								<p>
+									Y si recordamos debemos hacer productos entre todas las expresiones (1,2 y 3) para obtener nuestro 
+									resultado. Obteniendo lo siguiente:
+								</p>
+								<p>
+									y^'=  1/(2√(tan⁡(x^2-2x)))*〖sec〗^2 (x^2-2x)*2x-2 
+								</p>
+								<p>
+									Donde podremos simplificar unas constantes debido al factor común:
+								</p>
+								<p>
+									y^'=  1/(2√(tan⁡(x^2-2x)))*〖sec〗^2 (x^2-2x)*2(x-1)
+								</p>
+								<p>
+									En negrilla se encuentra lo que se puede simplificar
+								</p>
+								<p>
+									Al final, nos quedamos con la siguiente expresión:
+								</p>
+								<p>
+									y^'=  (〖sec〗^2 (x^2-2x))/√(tan⁡(x^2-2x))(x-1)
+								</p>
+							</p>
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+						<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>
+									<b>1.</b> Resuelva los siguientes ejercicios propuestos
+								</p>
+								<p>
+									Nota: Para realizar estos ejercicios se deben conocer los temas anteriores
+								</p>
+								<ul>
+									<li>sec(x^2+1)</li>
+								</ul>	
+
+								<p>
+							   	<b>2.</b> Responda falso o verdadero de acuerdo al siguiente enunciado
+							   </p>
+							   <p>
+     								La derivada de la función f(x) = sen(x) es equivalente a tan(x)
+     							</p>
+
+								<p>
+									<b>3.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+
+								<p>
+									<b>4.</b> Escoja la opción correcta de acuerdo al siguiente enunciado
+								</p>
+								<p>
+									La derivada de las funciones tan(x), sec(x) y csc(x) corresponden a:
+								</p>
+								<ol type="a">
+									<li>〖sec〗^2 (x),sec⁡(x)*tan⁡(x)</li>
+									<li>cos⁡(x),csc⁡(x)</li>
+									<li>〖-cot〗^2 (x)</li>
+									<li>A y C son correctas</li>
+								</ol>
+
+								<p>									
+									<b>5.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						<a name="OVAS">
+							<h4>OVAS</h4>
+						</a>
+						<p>
+							En esta sección, recomendamos las actividades que se ofrecen en Educaplay donde podrás encontrar desde
+							crucigramas, sopas de letras, video - quices, entre otros. Para poder prácticar los diferentes temas 
+							explicados anterioremente. Recuerda buscar acerca de derivadas logaritmicas.
+						</p>
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=cP1Ss34Mkz8&ab_channel=julioprofe" target="blank">
+					https://www.youtube.com/watch?v=cP1Ss34Mkz8&ab_channel=julioprofe
+				</a>
+				del canal de julioprofe
+			</p>	
+		</aside>		
+		</section>
+		<footer>
+			<p style="color: white">
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 3 Subtema 2</title>
+</head>
+<header class="primera">
+	<h1>Subtema 2: Funciones logaritmicas</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+			<a href="#OVAS">OVAS</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+							<h4>Funciones logaritmicas</h4>
+						</a>
+							<p>
+								<p>
+									Para dicho tema, no ahondaremos tan a profundidad en las demostraciones de como salen las siguientes 
+									propiedades. Sin embargo, si estableceremos cuales son dichas propiedades. Adicional a eso, como dato 
+									curioso aproximadamente en el siglo XVI un terrateniente escoces sería el responsable de la creación de 
+									los logaritmos.
+								</p>
+								<p>
+									Ahora, observaremos las equivalencias en las derivadas al igual que en las trigonométricas, estas 
+									también se pueden demostrar por definición.
+								</p>
+								<p>
+									dy/dx (Lnx)=1/x
+								</p>
+								<p>
+									y=〖Log〗_a x
+								</p>
+								<p>
+									y^'=1/aLnx
+								</p>
+								<p>
+									Y en general, utilizando la regla de la cadena con 〖Log〗_a x podemos tener
+								</p>
+								<p>
+									dy/dx (〖Log〗_a f(x))=1/(aLnf(x))*f'(x)
+								</p>
+								<p>
+									Ejemplo 1:  
+								</p>
+								<p>
+									Calcule la derivada de y=Ln (x^4+2x^2)
+								</p>
+								<p>
+									Ahora, como podemos notar la externa es:
+								</p>
+								<p>
+									f(x)=Lnx
+								</p>
+								<p>
+									Y la interna es:
+								</p>
+								<p>
+									g(x)= x^4+2x^2
+								</p>
+								<p>
+									De esta forma en un primer momento, la derivada estaría quedando tal que así:
+								</p>
+								<p>
+									1/(x^4+2x^2 ) (1)
+								</p>
+								<p>
+									Para luego terminar derivando g(x) para lograr el resultado de la derivada. Luego derivando g(x) y 
+									multiplicando por (1). Sucedería lo siguiente:
+								</p>
+								<p>
+									g^' (x)=〖4x〗^3+4x
+								</p>
+								<p>
+									y^'=1/(x^4+2x^2 )(〖4x〗^3+4x)
+								</p>
+								<p>
+									Y simplificando la expresión:
+								</p>
+								<p>
+									y^'=4x(x^2+1)/(x^4+2x^2 )
+								</p>
+							</p>	
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+						<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>
+									<b>1.</b> Responde falso o verdadero de acuerdo al siguiente enunciado:
+								</p>
+								<p>
+									La derivada de la función f(x) = Ln(x) corresponde a 1/x^2 
+								</p>	
+	
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+								
+								<p>
+									<b>3.</b> Escoja la opción correcta de acuerdo al siguiente enunciado
+								</p>
+								<p>
+									La derivada de la función f(x)=Ln(〖3x〗^2) corresponde a
+								</p>
+								<ol type="a">
+									<li>1/〖3x〗^2(3x).</li>
+									<li>Ninguna de las anteriores</li>
+									<li>1/〖6x〗^2(6x)</li>
+									<li>2/x^2</li> 
+								</ol>
+	
+								<p>
+									<b>4.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">		
+						<a name="OVAS">			
+							<h4>OVAS</h4>
+						</a>	
+						<p>
+							En esta sección, recomendamos las actividades que se ofrecen en Educaplay donde podrás encontrar desde
+							crucigramas, sopas de letras, video - quices, entre otros. Para poder prácticar los diferentes temas 
+							explicados anterioremente. Recuerda buscar acerca de derivadas logaritmicas.
+						</p>
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=BMJIhGGAed0&ab_channel=julioprofe" target="blank">
+					https://www.youtube.com/watch?v=BMJIhGGAed0&ab_channel=julioprofe
+				</a>
+				del canal de julioprofe
+			</p>
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

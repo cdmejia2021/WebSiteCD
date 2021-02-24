@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 3 Anexo 2</title>
+</head>
+<header class="primera">
+	<h1>Anexo 2: Ecuación de la recta normal</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+							<h4>Ecuación de la recta normal</h4>
+						</a>
+							<p>
+								<p>
+									Como ya se mencionó anteriormente, ya reconoces la manera de como hallar la ecuación de la recta 
+									tangente pero ahora también es recomendable que conozcas la manera de como hallar la ecuación de la 
+									recta normal la cual, por supuesto dependerá de primero hallar la pendiente de la recta tangente en un 
+									punto, pero está pendiente ahora se encontrará en el denominador de una fracción negativa. Como se 
+									muestra a continuación:
+								</p>
+								<p>
+									(-1)/m
+								</p>
+								<p>
+									Siendo en este caso, m la pendiente. Igualmente, la recta normal se considera como la recta 
+									perpendicular a la tangente por su condición de la pendiente que ya se había mencionado lo cual, hace 
+									que la recta normal si o si sea perpendicular a la tangente.
+								</p>
+								<p>
+									Lo que al final, hace que la ecuación de la recta normal sea igual a:
+								</p>
+								<p>
+									y=(-1)/(f^' (a) ) (x-a)+f(a)
+								</p>
+								<p>
+									Siendo como ya se mencionó anteriormente de manera explicita f^' (a)=m y el resto serian equivalentes 
+									a:
+								</p>
+								<p>							
+									a=x
+								</p>	
+								<p>
+									f(a)=b
+								</p>
+								<p>
+									De esta forma, en la siguiente parte se mostrarán ejemplos relacionados a esto:
+								</p>
+								<p>
+									Ejemplo 1:
+								</p>
+								<p>
+									Hallar la ecuación de la recta tangente y la recta normal de la función f(x)=1/4 x^3+3 en x=2.
+								</p>
+								<p>
+									Aquí como bien sabremos, primero debemos evaluar el valor de x en la función. Realizando lo siguiente:
+								</p>
+								<p>
+									f(2)=1/4 〖(2)〗^3+3
+								</p>
+								<p>
+									1/4 (8)+3
+								</p>
+								<p>
+									2+3
+								</p>
+								<p>
+									f(2)=5
+								</p>
+								<p>
+									Obteniendo que el valor de f(2) sea 5 y por lo tanto a su vez, sea un valor de y que nos encontrábamos 
+									buscando.
+								</p>
+								<p>
+									Ahora bien, después de hallado este valor ahora sí, procederemos a derivar la función. Obteniendo lo 
+									siguiente:
+								</p>
+								<p>							
+									f^' (x)=1/4(3)x^(3-1)
+								</p>
+								<p>	
+									3/4 x^2
+								</p>
+								<p>
+									Obteniendo ahora que:
+								</p>
+								<p>
+									f^' (x)=  3/4 x^2
+								</p>
+								<p>
+ 									Luego ya, con esta información ahora si pasaremos a evaluar el 2 en la función derivada. Realizando lo 
+ 									siguiente:
+ 								</p>
+								<p>								
+									f^' (2)=3/4 〖(2)〗^2
+								</p>
+								<p>
+									3/4(4)
+								</p> 
+								<p>
+									3
+								</p>
+								<p>
+									Sabiendo ahora que f^' (2)=3. Obteniendo todos los valores necesarios para realizar las ecuaciones 
+									punto – pendiente para la ecuación de la recta tangente y reemplazar los valores para la ecuación de 
+									la recta normal. De igual forma, se mostrarán nuevamente los valores obtenidos que nos interesan:
+								</p>
+								<p>
+									f^' (a)=m=3
+								</p>
+								<p>
+									a=x=2
+								</p>
+								<p>
+									f(a)=b=5
+								</p>
+								<p>
+									Ahora bien, recordemos que se puede hallar la ecuación de la recta tangente de dos maneras, pero en 
+									este caso utilizaremos la forma de la ecuación punto - pendiente.
+								</p>
+								<p>
+									y-5=3(x-2)
+								</p>
+								<p>
+									y-5=3x-6
+								</p>
+								<p>
+									y=3x-6+5
+								</p>
+								<p>
+									Obteniendo de esta manera la ecuación de la recta tangente. Siendo la siguiente:
+								</p>
+								<p>
+									y=3x-1
+								</p>
+								<p>
+									Ahora bien, se llegará a la ecuación de la recta normal lo cual, se logra de la siguiente manera. 
+									Primero tendremos en cuenta, nuevamente la fórmula:
+								</p>
+								<p>
+									Ecuación de la recta normal
+								</p>
+								<p>
+									y=-1/(f^' (a) ) (x-a)+f(a)
+								</p>
+								<p>
+									Reemplazando ahora, los valores tenemos que:
+								</p>
+								<p>
+									y=(-1)/3 (x-2)+5
+								</p>
+								<p>
+									y=(-1)/3 x+2/3+5
+								</p>
+								<p>
+									Obteniendo ahora, la ecuación de la recta normal la cual, es la siguiente:
+								</p>
+								<p>
+									y=(-1)/3 x+17/3
+								</p>
+ 								<p>
+									Como podemos observar la ecuación de la recta tangente se encuentra en rojo y en naranja se encuentra 
+									la ecuación de la recta normal la cual, es perpendicular a la ecuación de la recta tangente. Igualmente,
+									la función a su vez, se encuentra de color verde y el punto sobre el cual, sacamos las ecuaciones de 
+									color azul y señalado con la letra A.
+								</p>
+							</p>	
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+			<br>
+					<img src="Imagenes/grafico2.jpg" alt="gráfico2" width="605">
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+						<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>
+									<b>1.</b> Escoja la opción correcta de acuerdo al siguiente enunciado.
+								</p>
+								<p>
+									La recta normal tiene como características:
+								</p>
+								<ol type="a">
+									<li>Ser perpendicular a la recta tangente</li>
+									<li>Estar determinada por la pendiente (-1)/m</li>
+									<li>Utilizar los valores del punto que se evalúa en la función derivada y en la primitiva</li>
+									<li>Todas las anteriores</li>
+								</ol>	
+
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior, justifíquela.
+								</p>
+
+								<p>
+									<b>3.</b> Responda falso o verdadero de acuerdo al siguiente enunciado
+								</p>
+								<p>
+									La recta normal es paralela a la recta tangente.
+								</p>
+
+								<p>
+									<b>4.</b> Resuelva el siguiente ejercicio propuesto
+								</p>
+								<p>
+									<b>5.</b> Halle la ecuación de la recta normal de la función f(x)=x^4+2 en x=1. Recuerde, hacer uso de la 
+									ecuación de la recta tangente.
+								</p>
+
+								<p>
+									<b>6.</b> Grafique la ecuación de la recta normal junto a la ecuación de la recta tangente y la función con el 
+									punto correspondiente.
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=hFgFzpbmq6k&ab_channel=Germ%C3%A1nLeiva" target="blank">
+					https://www.youtube.com/watch?v=hFgFzpbmq6k&ab_channel=Germ%C3%A1nLeiva
+				</a>
+				del canal de Germán Leiva
+			</p>	
+		</aside>		
+		</section>
+		<footer>
+			<p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	

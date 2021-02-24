@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Capítulo 2 Tema 8</title>
+</head>
+<header class="primera">
+	<h1>Tema 8: Regla del cociente</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Definicion" id="id4">Definición</a>
+			<a href="#Actividades">Actividades</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+					<article class="tercera">
+						<p>
+						<a name="Definicion">
+						<h4>Regla del cociente</h4>
+						</a>
+							<p>
+								<p>
+									((A’)(B)-(B’)(A))/B^2 
+								</p>
+								<p>
+									Ejemplo:
+								</p>
+								<p>
+									Derive f(x)/(g(x))
+								</p>
+								<p>
+									Su derivada será  (f^' (x)g(x)-g'(x)f(x))/〖g(x)〗^2 
+								</p>
+								<p>
+									Es de aclarar que el orden en este caso en especial, SI IMPORTA. Digamos no podemos realizar lo mismo 
+									que en el producto donde el orden realmente no importaba y más aún al ser una suma o adición.
+								</p>
+								<p>
+									Ahora, supongamos que f(x) = 〖30x〗^8 y g(x) = 〖9x〗^3
+								</p>
+								<p>
+									Su derivada por tanto será  
+								</p>
+								<p>
+									F^' (x)=〖50x〗^4/3
+								</p>
+								<p>
+									Ahora, derivando cada función lo podremos ver, sin embargo, a diferencia de la suma y resta debemos ver
+									un par de pasos más para lograr esta derivada.
+								</p>
+								<p>						
+									f’(x) = 〖8x〗^7 ya que se baja el exponente y se multiplica por el múltiplo constante. 
+								</p>	
+								<p>	
+									g’(x) = 〖3x〗^2 ya que se baja el exponente y se multiplica por el múltiplo	constante
+								</p>
+								<p>
+									Teniendo en cuenta que tendremos como factor común a 30/9
+								</p>
+								<p>
+	 								Luego, efectuamos la regla del cociente con las derivadas.
+	 							</p>
+	 							<p>
+	 								Adicional a esto, requerimos de elevar g(x) al cuadrado
+	 							</p>
+	 							<p>
+		 							Lo cual, equivaldrá a g^' (x)=x^6
+		 						</p>
+		 						<p>
+            					Ahora sí, podremos efectuar la regla del cociente
+            				</p>
+            				<p>
+		 							NOTA: No olvidar el múltiplo constante sacado anteriormente
+		 						</p>
+		 						<p>
+            					(〖〖8x〗^7 x^3-3x〗^2 x^8)/x^6 
+            				</p>
+								<p>
+		  							〖〖8x〗^10-3x〗^10/x^6 
+								</p>
+								<p>
+		    						30/9(〖5x〗^4)
+								</p>
+								<p>
+	   							Esto, será igual a 
+	   						</p>
+	   						<p>
+	   							F^' (x)=〖50x〗^4/3
+								</p>
+							</p>
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+					https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+				<a name="Actividades">
+					<h4>Actividades</h4>
+				</a>
+							<p>
+								<p>
+									<b>1.</b> Seleccione la opción correcta:
+								</p>
+								<p>
+									¿Cuál es la regla correcta para efectuar un cociente de derivadas?
+								</p>
+								<p>
+									NOTA: Se supone que A corresponde a una f(x) y B a g(x) planteados en la teoría que previamente se 
+									mostró
+								</p>
+								<p>
+									A = f(x)
+								</p>
+								<p>
+									B = g(x)
+								</p>
+								<p>
+									(A)(B)
+								</p>
+								<ol type="a">
+									<li>((A)(B')-(B)(A'))/B^2</li>
+									<li>No sabe, no responde</li>
+									<li>((A’)(B)-(B’)(A))/B^2</li>
+	 								<li>(A’)/B'</li>
+								</ol>
+	
+								<p>
+									<b>2.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+
+								<p>						
+									<b>3.</b> Resuelva el siguiente ejercicio propuesto
+								</p>		
+								<p>
+									Nota: Para realizar este ejercicio se deben conocer las anteriores reglas mencionadas
+								</p>
+								<ul>						
+									<li>(x^7-3x)/(x^2+x)</li> 
+								</ul>		
+								
+								<p>
+									<b>4.</b> Responda falso o verdadero de acuerdo al siguiente enunciado
+								</p>
+								<p>
+									Para realizar la regla del cociente entre dos funciones se debe elevar al cubo el denominador durante
+									el proceso
+								</p>
+								
+								<p>
+									<b>5.</b> Responda de forma abierta al siguiente enunciado
+								</p>
+								<p>
+									De acuerdo a la opción escogida en la pregunta anterior justifique su elección
+								</p>
+							</p>		
+					</article>
+					<article class="tercera" id="qu6">			
+						
+				</article>			
+		</section>
+		<section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=HUq8qmH68x8&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+					https://www.youtube.com/watch?v=HUq8qmH68x8&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas Profe Alex
+			</p>	
+		</aside>		
+		</section>
+		<footer>
+			<p style="color: white">
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br>
+				&copy;. Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>	
