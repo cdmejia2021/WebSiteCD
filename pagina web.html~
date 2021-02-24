@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es la página principal del curso">
+	<meta name="autor" content="Dell">
+	<meta name="keywords" content="curso, derivadas, diferencial, programacion, web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="Css/mi_estilo.css" rel="stylesheet" type="text/css">
+	<title>Curso de derivadas</title>
+</head>
+<header class="primera">
+	<h1>Curso de derivadas</h1>
+		<img src="Imagenes/Imagen1.jpg" alt="foto 1" height="256" width="200">
+</header>
+<body background="Imagenes/vista3.jpg">
+	<nav class="segunda">
+	 <p id="qu">
+			<a href="#Introduccion" id="id4">Introducción</a>
+			<a href="#Capitulos">Capitulos</a>
+			<a href="#Canales">Canales</a>
+			<a href="#OVAS">OVAS</a>
+			<a href="#Libros" >Libros</a>
+	</p>
+	</nav>
+		<section>
+			<fieldset id="qu1">
+				<h3 class="cuarta"><a name="Introduccion">Introducción</a></h3>
+					<article class="tercera">
+						<p>
+							A continuación, se presentará el curso de derivadas dividido en diversos capitulos que contienen
+							diversos temas. Estos son los siguientes:
+							<ol>
+  								<li>Definición</li>
+  								<li>Reglas de derivación</li>
+  								<li>Regla de la cadena</li>
+  								<li>Derivación Implicita</li>
+							</ol> 
+							A continuación, se presentaran una breve descripción de los temas y después habrán otras páginas que
+							redirijan a cada contenido especifico de cada capitulo donde podŕas encontrar las diversas actividades
+							que se han planteado y una explicación más detallada.
+							<br> 	
+						</p>
+					</article>	
+			</fieldset>			
+		</section>
+		<aside id="qu7">
+		<h5>Lista de reproducción recomendada</h5>		
+			<p>
+				Contenido no propio del autor, lista de reproducción tomada de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+				https://www.youtube.com/watch?v=06QNxG0W_to&list=PL5yNWmdjTGAk8vhNX8VfAm_Oc2vuFskaD&ab_channel=Matem%C3%A1ticassencillas
+				</a>
+				del canal de Matemáticas sencillas 
+			</p>
+		</aside>
+		<section>
+			<fieldset id="qu2">	
+			<article class="tercera" id="qu6">
+						<p>
+						<a name="Capitulos">					
+							<h4>Capitulo 1: Definición</h4>
+						</a>	
+							<p>
+								Este se encuentra dividido en varios temas los cuales son:
+							<ol>
+								<a href="capitulo1tema1.html" target="blank">
+  									<li>Derivadas por definición</li>
+  								</a>
+  								<a href="capitulo1tema2.html" target="blank">
+  									<li>Historia</li>
+  								</a>
+  								<a href="capitulo1tema3.html" target="blank">
+  									<li>Notación</li>
+  								</a>
+  								<a href="capitulo1tema4.html" target="blank">
+  									<li>Condiciones para derivar una función (Suave, Continua)</li>
+  								</a>	
+							</ol> 
+							</p>
+							<p>
+								Y como subtemas tenemos a:
+							<ol>
+								<a href="capitulo1subtema1.html" target="blank">
+  									<li>Derivadas por definición en un punto</li>
+  								</a>	
+							</ol>
+							<p>
+								Este mismo subtema, se encuentra en el tema 1 luego, de la explicación principal							
+							</p>	 				
+							</p>
+						</p>	
+					</article>
+					<article class="tercera" id="qu6">			
+							<h4>Capitulo 2: Reglas de la derivación</h4>
+							<p>
+								Este se encuentra dividido en varios temas los cuales son:
+							<ol>
+								<a href="capitulo2tema1.html" target="blank">
+  									<li>Derivada de una constante</li>
+  								</a>
+  								<a href="capitulo2tema2.html" target="blank">
+  									<li>Derivadas de una función identidad</li>
+  								</a>
+  								<a href="capitulo2tema3.html" target="blank">
+  									<li>Derivada con múltiplo constante</li>
+  								</a>
+  								<a href="capitulo2tema4.html" target="blank">
+  									<li>Derivada de una potencia</li>
+  								</a>
+  								<a href="capitulo2tema5.html" target="blank">
+  									<li>Regla de la suma</li>
+  								</a>
+  								<a href="capitulo2tema6.html" target="blank">	
+  									<li>Regla de la resta</li>
+  								</a>
+  								<a href="capitulo2tema7.html" target="blank">
+  									<li>Regla del producto</li>
+  								</a>
+  								<a href="capitulo2tema8.html" target="blank">
+  									<li>Regla del cociente</li>
+  								</a>
+							</ol> 
+							</p>
+				</article>			
+				<article class="tercera" id="qu6">
+				<p>
+							<h4>Capitulo 3: Regla de la cadena</h4>
+							<p>
+								Este se encuentra dividido en varios temas los cuales son:
+							<ol>
+								<a href="capitulo3tema1.html" target="blank">
+  									<li>Definición</li>
+  								</a>
+  									<li>Aplicaciones</li>
+							</ol> 
+							</p>
+							<p>
+								Y como subtemas tenemos a:
+							</p>
+							<ol>
+								<a href="capitulo3subtema1.html" target="blank">		
+	  								<li>Funciones trigonométricas</li>
+  								</a>	
+  								<a href="capitulo3subtema2.html" target="blank">
+  									<li>Funciones logaritmicas</li>
+  								</a>
+  								<a href="capitulo3subtema3.html" target="blank">
+  									<li>Funciones exponenciales</li>
+  								</a>
+							</ol>
+							<p>
+								Además de un anexo el cual, podriamos tomar como subtema estos son:	
+							<ol>
+								<a href="capitulo3anexo1.html" target="blank">							
+  									<li>Ecuación de la recta tangente</li>
+  								</a>	
+  								<a href="capitulo3anexo2.html" target="blank">	
+  									<li>Ecuación de la recta normal</li>
+  								</a>
+							</ol>				
+							</p>	 				
+						</p>		
+				</article>
+				<article class="tercera" id="qu6">
+						<p>
+							<h4->Capitulo 4: Derivación Implicita</h4>
+							<p>
+								Este solo contiene un tema, el cual es:
+							<ol>
+								<a href="capitulo4tema1.html" target="blank">
+  									<li>Definición</li>
+  								</a>
+							</ol> 
+							</p>
+							<p>
+								Y en anexos tenemos a:
+							<ol>
+								<a href="capitulo4anexo1.html" target="blank">
+  									<li>Funciones trigonométricas inversas</li>
+  								</a>
+							</ol>		
+							</p>
+						</p>
+				</article>
+			</fieldset>
+		</section>
+		<aside>
+			<p id="qu8">
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=uK4-s0ojHFg&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+				https://www.youtube.com/watch?v=uK4-s0ojHFg&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas Profe Alex 
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=06QNxG0W_to&ab_channel=Matem%C3%A1ticassencillas" target="blank">
+				https://www.youtube.com/watch?v=uK4-s0ojHFg&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matemáticas sencillas 
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=ASbk8LLfZj0&ab_channel=MateFacil" target="blank">
+				https://www.youtube.com/watch?v=uK4-s0ojHFg&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matefacil   
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>	
+				Contenido no propio del autor, video tomado de 
+				<a href="https://www.youtube.com/watch?v=u0BP7ZMRsms&ab_channel=Matem%C3%A1ticasprofeAlex" target="blank">
+				https://www.youtube.com/watch?v=u0BP7ZMRsms&ab_channel=Matem%C3%A1ticasprofeAlex
+				</a>
+				del canal de Matefacil   
+			</p>		
+		</aside>
+		<section>
+			<fieldset id="qu3">
+				<h3 class="cuarta">
+					<a name="Canales">Canales</a>
+				</h3>
+					<article class="tercera">
+						<p>
+						Aqui encontraras canales de Youtube que pueden apoyar tu proceso de aprendizaje:
+						</p>
+							<ul>
+								<li>Julioprofe</li>
+								<li>Matemáticas Profe Alex</li>
+								<li>La Prof. Lina M3</li>	
+							</ul>
+					</article>
+			</fieldset>
+		</section>
+		<aside id="qu9">
+			<p>Contenido no propio del autor, imagen tomada de la pagina
+				<a href="https://www.pexels.com/es-es/">https://www.pexels.com/es-es/</a>				
+			</p>	
+			<img src="Imagenes/vista1.jpg" alt="youtube" height="128" width="200">
+		</aside>
+		<section>
+			<fieldset id="qu4">			
+				<article class="tercera">
+					<h3 class="cuarta">
+						<a name="OVAS">Ovas Recomendadas</a>
+					</h3>
+					<p>
+						En esta sección, recomendamos las actividades que se ofrecen en Educaplay donde podrás encontrar desde
+						crucigramas, sopas de letras, video - quices, entre otros. Para poder prácticar los diferentes temas explicados
+						anterioremente.
+					</p>
+						</a>
+				</article>
+			</fieldset>		
+		</section>
+		<aside id="qu10">
+			<p>Contenido no propio del autor, imagen tomada de la pagina
+				<a href="https://www.pexels.com/es-es/">https://www.pexels.com/es-es/</a>				
+			</p>	
+			<img src="Imagenes/vista2.jpg" alt="ovas" height="128" width="160">		
+		</aside>
+		<section>
+			<fieldset id="qu4">			
+				<article class="tercera">
+					<h3 class="cuarta">
+						<a name="Libros">Libros recomendados</a>
+					</h3>
+					<p>
+						En esta sección, hay unos libros donde podras apoyar tu proceso de aprendizaje:					
+					</p>
+					<ul>
+  						<li>Pre cálculo de James Stewart</li>
+  						<li>Cáĺculo de una variable de George B. Thomas</li>
+  						<li>Cálculo de una variable de James Stewart</li>
+					</ul> 
+				</article>
+			</fieldset>		
+		</section>
+		<aside id="qu10">
+			<p>Contenido no propio del autor, imagen tomada de la pagina
+				<a href="https://www.pexels.com/es-es/">https://www.pexels.com/es-es/</a>				
+			</p>	
+			<img src="Imagenes/vista3.jpg" alt="libro" height="128" width="160">
+		</aside>
+		<footer>
+			<p>
+				&copy; Diseñado por Cristian Mejia &#124 Bogotá - Colombia
+			</p>
+		</footer>
+</body>
+</html>
